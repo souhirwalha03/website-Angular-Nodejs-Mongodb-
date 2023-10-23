@@ -1,0 +1,22 @@
+
+/*nos offres*/
+
+main {
+    background-color: rgba(255, 255, 255, 0.504);
+    padding: 20px;
+  }
+  
+  .offer {
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.732);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  

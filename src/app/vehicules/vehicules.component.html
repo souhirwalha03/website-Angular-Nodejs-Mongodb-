@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+
+  <div class="search-bar" >
+    <form >
+      <input  [(ngModel)]="vehicule.name" type="text" name="input" placeholder="search">
+      <button type="submit" name="search" ><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+<div class="container">
+        <h1 class="title" style="color:aliceblue; text-align: center;
+        margin-bottom:-0.8cm; margin-top:-0.8cm; ">Nos Véhicules</h1>
+
+    <div class="row">
+    
+        <div class="col-md-4" *ngFor="let vehicule of vehicules ">
+            <div class="card" >
+            <img class="card-img-top"  [src]="vehicule.image">
+            <div class="card-body">
+                <h5 class="card-title"> {{vehicule.name}}</h5>
+                <a class="btn">Réserver</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

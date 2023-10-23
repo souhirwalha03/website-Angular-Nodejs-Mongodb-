@@ -1,0 +1,130 @@
+
+/* Liste des véhicules */
+
+.card {
+    align-items: center;
+    transition: transform 0.3s;
+    position: relative;
+    top: 50px;
+    left: 4mm;
+    width: 300px;
+    height: 200;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px #0000002c;
+    background-color: #ffffffde;
+    margin-top: 1mm;
+    padding-bottom: 0PX;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+  }
+  
+  .card-img-top {
+    height: 180PX;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  .btn{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #fff;
+  background-color: #605b94;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  position: relative;
+  left: 30%;
+  
+  }
+  
+  .btn:hover {
+  
+    background-color: rgba(170, 159, 159, 0.484);
+    color: rgb(252, 252, 252);
+  
+  }
+  
+  
+  
+  
+  .search-bar {
+    
+    margin-top: 15mm;
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+  
+    }
+    
+    .search-bar form {
+    display: flex;
+    align-items: center;
+    
+    }
+    
+    .search-bar input[type="text"] {
+    padding: 1mm 5cm;
+    border: 1px solid #8a8989;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    background-color: #8a898955;
+    
+    }
+  
+  /* Apply some general styling to the vehicle cards */
+.card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Style the vehicle image within the card */
+  .card .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the card title (vehicle name) */
+  .card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style the "Réserver" button */
+  .card .btn {
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Style the button on hover */
+  .card .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
